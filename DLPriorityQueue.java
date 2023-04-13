@@ -137,4 +137,13 @@ public class DLPriorityQueue<T> implements PriorityQueueADT<T> {
     public Hexagon dequeue() {
         return null;
     }
+
+    public void changePriority(Hexagon neighbor, int distanceToNeighbor) {
+    }
+
+    public void enqueue(Hexagon start, int i) {
+    }
+
+    public void enqueue(Hexagon neighbour, double d) {
+    }
 }
